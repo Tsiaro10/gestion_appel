@@ -1,0 +1,13 @@
+body{
+    background: rgb(165, 162, 162);
+}
+
+.imagep {
+    width:150px;
+    height:150px; 
+    border-radius: 50%;
+    object-fit: cover; 
+    object-position: center; 
+    border: 2px solid #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }

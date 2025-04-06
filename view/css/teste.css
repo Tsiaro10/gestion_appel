@@ -1,0 +1,16 @@
+body{
+    background: rgb(238, 15, 15);
+}
+.teste{
+    height:300px;
+    width: 100%;
+}
+.imagep {
+    width:50px; /* Largeur de l'image */
+    height:50px; /* Hauteur de l'image */
+    border-radius: 50%; /* Bordure arrondie pour obtenir une forme circulaire */
+    object-fit: cover; /* Redimensionner l'image pour couvrir le conteneur tout en conservant les proportions */
+    object-position: center; /* Centrer l'image dans le conteneur */
+    border: 2px solid #fff; /* Bordure blanche */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre portée */
+  }
